@@ -1,0 +1,32 @@
+$color-primary: #0282f9;
+$color-secondary: #303030;
+$color-tertiary: #797979;
+
+.cards-list{
+  min-height: 500px;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: $color-secondary;
+
+  img {
+    width: 240px;
+    height: 320px;
+  }
+
+  button {
+    width: 180px;
+  }
+
+  .btn-custom {
+    color: white;
+    background-color: rgb(13, 110, 253);
+    border-radius: 0%;
+  }  
+
+  .btn-custom-bottom {
+    top: 0;
+    transform: translateY(-50%);
+    left: 12.3%;
+    width: fit-content;
+  }
+}
