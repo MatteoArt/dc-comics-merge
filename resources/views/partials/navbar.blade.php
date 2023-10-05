@@ -31,10 +31,11 @@
         <img src="/images/dc-logo.png" alt="dc-logo-header">
       </a>
       <ul class="nav nav-pills">
+        
         @foreach ($headerLinks as $link)
         <li class="nav-item">
           @if ($link === 'COMICS')
-            <a class="nav-link {{ Request::is(strtolower($link)) ? 'active' : '' }}" href="{{ route('comics.index') }}">
+            <a class="nav-link {{ Request::is(strtolower($link)) ? 'active' : '' }}" href="">
               {{ $link }}
             </a>
           @else
